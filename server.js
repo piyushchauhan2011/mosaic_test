@@ -14,7 +14,7 @@ var util = require('util');
 var dir = path.dirname(fs.realpathSync(__filename));
 var svgTemplate = [
   '<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="%d" height="%d">',
-    '<rect x="50%" y="50%" w="50%" h="50%" fill="#%s"></rect>',
+    '<ellipse cx="50%" cy="50%" rx="50%" ry="50%" fill="#%s"></ellipse>',
   '</svg>'
 ].join('');
 
